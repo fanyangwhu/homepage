@@ -1123,7 +1123,12 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  background-size: cover;
+}
+.img-littlebox {
+  background-size: cover;
+  width: 300px;
+  height: 350px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -3527,7 +3532,7 @@ tbody.collapse.in {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 160px;
+  min-width: 130px;
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
